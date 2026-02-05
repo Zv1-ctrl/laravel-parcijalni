@@ -17,10 +17,9 @@ class StudentController extends Controller
 
         $offset = ($page - 1) * $perPage;
 
-        $total = Student::whereNotNull('mjesto')->count();
+        $total = Student::count();
 
         $studenti = Student::with('fakultet')
-            ->whereNotNull('mjesto')
             ->orderBy('prezime')
             ->limit($perPage)
             ->offset($offset)
