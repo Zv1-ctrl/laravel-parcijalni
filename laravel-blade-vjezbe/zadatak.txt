@@ -1,0 +1,8 @@
+Potrebno je dodati u linkove u navigaciju kontakt link, te kreirati kontakt blade (concat-create.blade.php) koji će imati sljedeća polja za unos
+Naslov:
+Email:
+Poruka:
+Gumb pošalji.
+
+Potrebno je samo ispisati poslane podatke u view blade-u contact-saved.blade.php
+Potrebno je dodati rutu i imenovati je te svugdje gdje je potrebno koristiti rute ('naziv.rute')

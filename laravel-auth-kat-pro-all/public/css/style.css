@@ -1,0 +1,10 @@
+.buttonadd{
+    border: 1px solid #a89a9a;
+    padding: 8px;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+    border-radius: 3px;
+        box-sizing: border-box;
+    border-width: 1;
+    border-style: solid;
+    border-color: #e5e7eb;
+}

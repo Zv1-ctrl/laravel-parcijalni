@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+}
+
+header {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+main a:link{
+    text-decoration: none;
+}
+
+.visoka{
+    color: red;
+}
+
+.pristojna{
+    color: green;
+}
+
+section {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+aside {
+    width: 200px;
+    background-color: #e5e7eb;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+aside ul li{
+    padding: 5px;
+    text-decoration: none;
+}
+
+aside ul li a:link{
+    color: #2082bb;
+}
+
+aside ul li a:visited{
+    color: #2082bb;
+}
+
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th{
+    background-color: #2467e4;
+    color: #dddd;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.card h3 {
+    margin-top: 0;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    color: #2082bb;
+}
+
+.card .price {
+    font-weight: bold;
+    color: #1f2937;
+}
+
+/* FORME */
+.form-box {
+    background: #fff;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 30%;
+}
+
+.form-box h2 {
+    margin-bottom: 15px;
+}
+
+.form-box label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-box input {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.form-box button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 90%;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #1f6391;
+}
+
+.form-box span{
+    display: block;
+    line-height: 150%;
+}
